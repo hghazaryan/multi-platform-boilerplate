@@ -1,0 +1,6 @@
+"*":
+  core:
+    customFileTypes:
+      "source.css.styled": [
+        "styled"
+      ]

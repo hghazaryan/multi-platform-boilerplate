@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "⚙️ Generate Library",
+      "identifier": "generate",
+      "script": "../../src/sketch.js",
+      "handler": "generateLibrary"
+    },
+    {
+      "name": "👁 Render Library",
+      "identifier": "render",
+      "script": "../../src/sketch.js",
+      "handler": "renderLibrary"
+    }
+  ],
+  "menu": {
+    "title": "Multi-Platform Boilerplate",
+    "items": [
+      "generate",
+      "render"
+    ]
+  }
+}
